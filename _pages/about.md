@@ -7,50 +7,110 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Building Intelligent Systems That Perform — and Explain Themselves
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I’m a Computer Science student at the University of Washington focused on Artificial Intelligence, Machine Learning, and full-stack engineering.  
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I care about one core question: **Can we build systems that are both high-performance and understandable?** My work — from industrial computer vision to interpretable chess agents — is driven by that idea.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## What I Do
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### 🤖 Artificial Intelligence & Machine Learning
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+I specialize in:
+- Deep Learning (CNNs, Transformers)
+- Reinforcement Learning
+- Computer Vision
+- Interpretable AI systems
 
-**Markdown generator**
+At Alitheon, I built a CNN-based imaging quality control system for industrial item registration using Basler cameras. I also deployed an obstruction detection system for low-compute industrial imaging stations that:
+- Reduced latency by **95%**
+- Improved system accuracy to **98.3%**
+- Ensured high-quality customer visual registrations for luxury goods
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+I enjoy taking models from theory to production — especially when real-world constraints demand efficiency, reliability, and precision.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### ♟ Research: Interpretable Reinforcement Learning for Chess
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+My primary research focus has been understanding how reinforcement learning systems reason in complex environments like chess.
+
+I developed:
+- **g-AWRL** — a novel RL agent replacing CNN value networks with attention-weighted mechanisms to improve interpretability while preserving AlphaZero-style strengths
+- **ChessNet** — a convolutional attention model trained on expert games that highlights critical board regions using attention maps, maintaining ~1800 ELO strength
+
+This work demonstrates that **explainable AI can succeed in complex strategic domains**, not just simplified benchmarks.
+
+---
+
+### 🌐 Full-Stack Engineering
+
+As a Full Stack Software Development Intern at OpenEXA, I:
+- Developed and owned the core web interface for a financial platform enabling asset-backed credit lines
+- Built web-native workflows that expedited the asset exchange process
+- Created onboarding documentation that improved intern ramp-up speed by ~30%
+- Mentored 5+ interns and led technical onboarding sessions
+
+I enjoy building systems end-to-end — from backend architecture to user-facing interfaces — and making them scalable, maintainable, and intuitive.
+
+---
+
+### ⚙️ Systems & Embedded Engineering
+
+I also work close to hardware:
+
+- **FPGA Space Invaders** — Built a bare-metal implementation with real-time controls, LFSR-driven enemy motion, and full game logic
+- **ESP32 Autonomous Rover** — Developed a self-driving embedded system with obstacle avoidance and wireless control, using FreeRTOS for reliable multitasking
+
+These projects strengthened my understanding of concurrency, real-time systems, and resource-constrained computing.
+
+---
+
+## Leadership & Teaching
+
+As President and Lead Instructor of the Interlake Computer Vision Club:
+- Taught weekly Data Science lessons
+- Grew membership from 25 to 40 students
+- Introduced students to official Kaggle competitions
+- Improved AI literacy across the school community
+
+I value clear communication and mentorship as much as technical depth.
+
+---
+
+## Technical Toolkit
+
+**Languages:**  
+Python, Java, C/C++, JavaScript, TypeScript, HTML/CSS, Verilog  
+
+**AI/ML:**  
+Deep Learning, CNNs, Transformers, Reinforcement Learning  
+
+**Frameworks & Tools:**  
+PyTorch, TensorFlow, OpenCV, Scikit-Learn, React, Node.js, MongoDB, SQL, Firebase, Git  
+
+**Other Technologies:**  
+Tableau, LaTeX, Atlassian, Microsoft Office, Verilator  
+
+**Languages Spoken:**  
+English, French, Marathi, Hindi  
+
+---
+
+## What Drives Me
+
+I’m motivated by building systems that are:
+
+- Technically rigorous  
+- Production-ready  
+- Efficient under real-world constraints  
+- Interpretable and human-aligned  
+
+Whether it’s an industrial vision pipeline, a reinforcement learning agent, or an embedded system, I aim to build technology that doesn’t just work — it makes sense.
+
+---
