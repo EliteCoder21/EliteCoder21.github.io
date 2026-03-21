@@ -25,7 +25,7 @@ Final project for CSE 474 - Embedded Systems. An intelligent RC rover combining 
 
 ```
 ┌─────────────────┐     ESP-NOW      ┌──────────────────┐
-│   Remote        │ ────────────────│  ESP32-S3        │
+│   Remote        │ ─────────────────│  ESP32-S3        │
 │   Controller    │                  │  (Master)        │
 │   (ESP32-S3)    │                  │  - Ultrasonic    │
 └─────────────────┘                  │  - Decision      │
