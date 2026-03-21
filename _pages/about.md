@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Aaryan Pawar"
 author_profile: true
 redirect_from: 
   - /about/
@@ -68,6 +68,20 @@ I also work close to hardware:
 - **ESP32 Autonomous Rover** — Developed a self-driving embedded system with obstacle avoidance and wireless control, using FreeRTOS for reliable multitasking
 
 These projects strengthened my understanding of concurrency, real-time systems, and resource-constrained computing.
+
+---
+
+### 🖥️ Computer Architecture
+
+My coursework and projects have given me a deep appreciation for how software meets silicon:
+
+- **5-Stage Pipelined RISC-V Processor** — Designed and implemented a complete, synthesizable RISC-V processor supporting the full RV32I instruction set. The design includes:
+  - Five-stage pipeline (Fetch, Decode, Execute, Memory, Writeback)
+  - Data forwarding paths to minimize stalls
+  - Hazard detection with load-use stalls and branch misprediction recovery
+  - Modular architecture with clearly defined interfaces between stages
+
+I find it fascinating how abstract high-level code eventually executes on physical silicon, and I enjoy understanding both the theoretical foundations and practical implementation details of modern processors.
 
 ---
 
