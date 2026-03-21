@@ -1,0 +1,71 @@
+---
+layout: archive
+title: "Classes I've Taken"
+permalink: /classes/
+author_profile: true
+---
+
+{% include base_path %}
+
+## Computer Science & Engineering (CSE)
+
+{% for post in site.classes reversed %}
+  {% if post.category == "cse" %}
+    <div class="class-entry" style="margin-bottom: 2rem; padding-left: 1rem; border-left: 3px solid #2c3e50;">
+      <h3>{{ post.title }}</h3>
+      {% if post.summary %}
+        <p><em>{{ post.summary }}</em></p>
+      {% endif %}
+      {% if post.learning_outcomes %}
+      <ul>
+        {% for outcome in post.learning_outcomes %}
+          <li>{{ outcome }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <hr>
+    </div>
+  {% endif %}
+{% endfor %}
+
+## General Education
+
+{% for post in site.classes reversed %}
+  {% if post.category == "gened" %}
+    <div class="class-entry" style="margin-bottom: 2rem; padding-left: 1rem; border-left: 3px solid #2c3e50;">
+      <h3>{{ post.title }}</h3>
+      {% if post.summary %}
+        <p><em>{{ post.summary }}</em></p>
+      {% endif %}
+      {% if post.learning_outcomes %}
+      <ul>
+        {% for outcome in post.learning_outcomes %}
+          <li>{{ outcome }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <hr>
+    </div>
+  {% endif %}
+{% endfor %}
+
+## Electrical Engineering
+
+{% for post in site.classes reversed %}
+  {% if post.category == "ee" %}
+    <div class="class-entry" style="margin-bottom: 2rem; padding-left: 1rem; border-left: 3px solid #2c3e50;">
+      <h3>{{ post.title }}</h3>
+      {% if post.summary %}
+        <p><em>{{ post.summary }}</em></p>
+      {% endif %}
+      {% if post.learning_outcomes %}
+      <ul>
+        {% for outcome in post.learning_outcomes %}
+          <li>{{ outcome }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <hr>
+    </div>
+  {% endif %}
+{% endfor %}
