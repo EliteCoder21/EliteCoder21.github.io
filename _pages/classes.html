@@ -7,7 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Computer Science & Engineering (CSE)</h2>
+<details>
+<summary><h2 style="display: inline;">Computer Science & Engineering (CSE)</h2></summary>
 
 {% for post in site.classes reversed %}
   {% if post.category == "cse" %}
@@ -27,8 +28,10 @@ author_profile: true
     </div>
   {% endif %}
 {% endfor %}
+</details>
 
-<h2>General Education</h2>
+<details>
+<summary><h2 style="display: inline;">General Education</h2></summary>
 
 {% for post in site.classes reversed %}
   {% if post.category == "gened" %}
@@ -48,8 +51,10 @@ author_profile: true
     </div>
   {% endif %}
 {% endfor %}
+</details>
 
-<h2>Electrical Engineering</h2>
+<details>
+<summary><h2 style="display: inline;">Electrical Engineering</h2></summary>
 
 {% for post in site.classes reversed %}
   {% if post.category == "ee" %}
@@ -69,3 +74,4 @@ author_profile: true
     </div>
   {% endif %}
 {% endfor %}
+</details>

@@ -11,6 +11,8 @@ github: "https://github.com/EliteCoder21/Obstacle_Avoiding_RC_Rover"
 
 Final project for CSE 474 - Embedded Systems. An intelligent RC rover combining wireless remote control with autonomous obstacle avoidance. The system uses a dual-processor architecture with an ESP32-S3 handling high-level control and wireless communication, while an Arduino Mega manages motor control.
 
+**GitHub:** [EliteCoder21/Obstacle_Avoiding_RC_Rover](https://github.com/EliteCoder21/Obstacle_Avoiding_RC_Rover)
+
 ## Key Features
 
 - **Dual-Microcontroller Architecture**: ESP32-S3 for intelligence/wireless, Arduino Mega for motor control via Adafruit Motor Shield
@@ -63,9 +65,9 @@ Final project for CSE 474 - Embedded Systems. An intelligent RC rover combining 
 
 ## Learning Outcomes
 
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
+- Designed dual-processor communication protocol using UART serial between ESP32-S3 and Arduino Mega
+- Implemented ESP-NOW wireless control achieving 25 Hz command transmission with sub-100ms latency
+- Created safety-critical obstacle avoidance system using HC-SR04 ultrasonic sensors with priority-based mode switching
 
 ## Course
 

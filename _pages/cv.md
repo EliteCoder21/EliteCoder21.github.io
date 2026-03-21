@@ -10,55 +10,54 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+=======
+* B.S. in Computer Science, University of Washington (Expected 2027)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+=====
+**Languages:** Python, Java, C/C++, JavaScript, TypeScript, HTML/CSS, Verilog
+
+**AI/ML:** Deep Learning, CNNs, Transformers, Reinforcement Learning, PyTorch, TensorFlow, OpenCV, Scikit-Learn
+
+**Frameworks & Tools:** React, Node.js, MongoDB, SQL, Firebase, Git, Tableau, LaTeX, Verilator
+
+**Other:** Atlassian, Microsoft Office
+
+Languages
+=====
+* English (Native)
+* French (Conversational)
+* Marathi (Native)
+* Hindi (Native)
+
+Service and leadership
+=====
+* President & Lead Instructor, Interlake Computer Vision Club
+  * Taught weekly Data Science and ML lessons
+  * Grew membership from 25 to 40 students
+  * Introduced students to Kaggle competitions
+* Volunteering for 300 Trees
+  * Facilitated the planting and watering 
 
 Publications
-======
+=====
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+Projects
+=====
+* **CFish-Engine** — High-performance chess engine in C++ with Alpha-Beta search and transposition tables  
+  [GitHub](https://github.com/EliteCoder21/CFish-Engine)
+
+* **ChessCaptioning** — Explainable chess RL with attention mechanisms  
+  [GitHub](https://github.com/EliteCoder21/ChessCaptioning)
+
+* **PipelinedCPU** — 5-stage pipelined RISC-V processor (RV32I)  
+  [GitHub](https://github.com/EliteCoder21/PipelinedCPU)
+
+* **SpaceInvaders** — FPGA implementation on DE1-SoC  
+  [GitHub](https://github.com/EliteCoder21/SpaceInvaders)
+
+* **Obstacle Avoiding RC Rover** — ESP32-based autonomous rover with wireless control  
+  [GitHub](https://github.com/EliteCoder21/Obstacle_Avoiding_RC_Rover)

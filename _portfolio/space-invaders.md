@@ -11,6 +11,8 @@ github: "https://github.com/EliteCoder21/SpaceInvaders"
 
 Complete implementation of the classic Space Invaders arcade game on the DE1-SoC FPGA development board using SystemVerilog. This project demonstrates full hardware-level game development with real-time control systems and custom graphics rendering.
 
+**GitHub:** [EliteCoder21/SpaceInvaders](https://github.com/EliteCoder21/SpaceInvaders)
+
 ## Key Features
 
 - **LFSR-Based Enemy AI**: 41-bit Linear Feedback Shift Register for pseudo-random alien movement and shooting patterns
@@ -35,9 +37,9 @@ Complete implementation of the classic Space Invaders arcade game on the DE1-SoC
 
 ## Learning Outcomes
 
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
+- Designed real-time game logic using finite state machines and clock-domain crossing for 50 MHz operation
+- Implemented LFSR-based pseudo-random number generation for enemy movement patterns and shooting behavior
+- Built custom display driver for 16x16 bi-color LED matrix using row-scanning multiplexed architecture
 
 ## Course
 

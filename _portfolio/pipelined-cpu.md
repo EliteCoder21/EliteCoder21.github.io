@@ -11,6 +11,8 @@ github: "https://github.com/EliteCoder21/PipelinedCPU"
 
 Complete, synthesizable implementation of a 5-stage pipelined RISC-V processor compliant with the RV32I base integer instruction set architecture. This capstone project for CSE 469 demonstrates fundamental concepts in modern processor design including instruction pipelining, hazard mitigation, and modular digital system architecture.
 
+**GitHub:** [EliteCoder21/PipelinedCPU](https://github.com/EliteCoder21/PipelinedCPU)
+
 ## Architecture
 
 ```
@@ -43,9 +45,9 @@ Complete, synthesizable implementation of a 5-stage pipelined RISC-V processor c
 
 ## Learning Outcomes
 
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
+- Designed modular 5-stage pipeline (IF, ID, EX, MEM, WB) supporting all 47 RV32I instructions
+- Implemented data forwarding paths and hazard detection unit to handle load-use stalls and branch mispredictions
+- Verified processor correctness using RISC-V compliance tests and C program execution in simulation
 
 ## Course
 

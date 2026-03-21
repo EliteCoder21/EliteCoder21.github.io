@@ -11,6 +11,8 @@ github: "https://github.com/EliteCoder21/ChessCaptioning"
 
 Research project exploring interpretable AI for chess through reinforcement learning and computer vision. The goal is to create AI agents that can not only play chess at a high level but also explain their decision-making process in human-understandable terms.
 
+**GitHub:** [EliteCoder21/ChessCaptioning](https://github.com/EliteCoder21/ChessCaptioning)
+
 ## Key Features
 
 - **Interpretable Reinforcement Learning**: Developed g-AWRL agent using attention-weighted mechanisms instead of traditional CNN value networks
@@ -27,9 +29,9 @@ Research project exploring interpretable AI for chess through reinforcement lear
 
 ## Learning Outcomes
 
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
-- [Add your key learning outcome or project highlight here]
+- Developed g-AWRL agent using attention-weighted mechanisms instead of CNN value networks for improved interpretability
+- Created ChessNet architecture with attention heat maps to visualize decision-making on chess boards
+- Achieved ~1800 ELO competitive strength while maintaining full explainability of move selections
 
 ## Impact
 
