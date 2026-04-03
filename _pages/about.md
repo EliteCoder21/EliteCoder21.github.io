@@ -29,9 +29,8 @@ My projects reflect a drive to create technology that doesn't just work, but mak
 
 - **Hardware Projects**: From FPGA games to full RISC-V processors, I enjoy pushing my understanding of how software runs on physical systems
 
-## Beyond Technical Work
-
-As President of the Interlake Computer Vision Club, I enjoyed helping students explore AI. When I'm not coding, I teach and learn Shotokan Karate (I'm a black belt), play guitar, and volunteer with 300 Trees, a local organization dedicated to revitalizing forests in Bellevue.
+## Hobbies
+Outside of tech, I stay active with Shotokan Karate (I have black belts in two styles of martial arts), and play guitar. I also love hiking the trails of the Pacific Northwest and listening to epic Bollywood songs. 
 
 ---
 
