@@ -23,6 +23,10 @@ Skills
 
 **Other:** Atlassian, Microsoft Office
 
+Experience
+---
+For a detailed list of my professional experience, please visit my [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).
+
 Languages
 ---
 * English (Native)

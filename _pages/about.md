@@ -31,10 +31,8 @@ My projects reflect a drive to create technology that doesn't just work, but mak
 
 ## Beyond Technical Work
 
-I believe in giving back to the technical community. As President of the Interlake Computer Vision Club, I've helped grow a community of students exploring AI — from weekly lessons to Kaggle competitions.
-
-I'm always looking for projects that challenge me to think deeply about both the technical and human dimensions of computing.
+As President of the Interlake Computer Vision Club, I enjoyed helping students explore AI. When I'm not coding, I teach and learn Shotokan Karate (I'm a black belt), play guitar, and volunteer with 300 Trees, a local organization dedicated to revitalizing forests in Bellevue.
 
 ---
 
-*Interested in collaborating or chatting? Feel free to reach out.*
+*Interested in collaborating or chatting? Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).*
