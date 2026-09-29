@@ -11,3 +11,4 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+gem 'faraday-retry' # silences the Faraday v2 retry-middleware warning on startup

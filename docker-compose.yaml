@@ -3,9 +3,9 @@ services:
     image: jekyll-site
     build: .
     volumes: [ .:/usr/src/app ]
-    ports: [ "4001:4000", "35729:35729" ] # host 4000 is used by NoMachine
+    ports: [ "4001:4001", "35729:35729" ] # host 4000 is used by NoMachine, so serve on 4001 everywhere
     user: 1000:1000
     stdin_open: true
     tty: true
     environment: [ JEKYLL_ENV=docker ]
-    command: jekyll serve -H 0.0.0.0 --livereload --config _config.yml,_config_docker.yml #jekyll serve -H 0.0.0.0 -w --config _config.yml,_config_docker.yml
+    command: jekyll serve -H 0.0.0.0 -P 4001 --livereload --config _config.yml,_config_docker.yml

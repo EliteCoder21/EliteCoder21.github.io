@@ -19,20 +19,50 @@ Site-wide settings (name, bio, social links) are in `_config.yml`.
 
 ## Running locally
 
-With Docker:
+### Option 1: Docker (recommended)
+
+Requires Docker and Docker Compose. From the repo root:
 
 ```bash
-docker compose up
+docker compose up --build
 ```
 
-Then open http://localhost:4001 (host port 4000 is taken by NoMachine on this machine). Changes to Markdown and HTML rebuild automatically; restart the container after editing `_config.yml`.
+The first run builds the `jekyll-site` image (Ruby 3.2 plus the gems in `Gemfile`), which takes a few minutes. Later runs reuse the image and start in seconds. Then open http://localhost:4001. Host port 4000 is used by NoMachine on this machine, so the container serves on port 4001 and `docker-compose.yaml` maps it straight through. The `Server address` line in the log therefore shows port 4001, matching the URL you open.
 
-Without Docker, install Ruby and Bundler, then:
+Edits to Markdown, HTML, and Sass rebuild automatically and the browser reloads through LiveReload. Changes to `_config.yml` are not picked up while serving: stop the container with `Ctrl-C` and run `docker compose up` again. If you change `Gemfile`, rerun with `--build`.
+
+The same setup is exposed as a VS Code Dev Container through `.devcontainer/devcontainer.json`.
+
+### Option 2: Native Ruby
+
+Requires Ruby 3.2 and Bundler (`gem install bundler`). The system gem directory is not writable on this machine, so install gems into the project instead:
 
 ```bash
+bundle config set --local path vendor/bundle
 bundle install
-bundle exec jekyll serve -l -H localhost
 ```
+
+This writes `.bundle/config` and `vendor/bundle/`, both of which are ignored by git. Then serve the site:
+
+```bash
+bundle exec jekyll serve -l -H localhost -P 4001
+```
+
+Open http://localhost:4001. The `-l` flag enables LiveReload, and `-P 4001` avoids the NoMachine conflict on port 4000 (omit it on machines where 4000 is free). As with Docker, restart the server after editing `_config.yml`.
+
+To only build the static output without serving it:
+
+```bash
+bundle exec jekyll build
+```
+
+The generated site lands in `_site/`, which is ignored by git.
+
+### Troubleshooting
+
+- **`bundler: command not found: jekyll`** means the gems are not installed. Run the `bundle config` and `bundle install` steps above.
+- **`You don't have write permissions for the /var/lib/gems/3.2.0 directory`** means Bundler is trying to install system-wide. Set the local `vendor/bundle` path as shown above.
+- **Port already in use** means something else (usually NoMachine on 4000) holds the port. Pick another one with `-P` or edit the host side of the port mapping in `docker-compose.yaml`.
 
 ## Credits
 
