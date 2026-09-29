@@ -18,7 +18,7 @@ I can't go deep on the technical specifics of my work here, but I can tell you w
 My projects followed the path a photo takes through a vision system, from the moment a camera captures an image to the moment the system decides what it's looking at:
 
 - **Capture.** Making sure the images coming from different cameras and stations are consistent enough to compare.
-- **Preparation.** Cleaning up and normalising images so that the parts of the system downstream get an easier problem.
+- **Preparation.** Cleaning up and normalizing images so that the parts of the system downstream get an easier problem.
 - **Recognition.** Sorting objects into categories, including a stretch spent finding out how much a dataset could be trusted.
 - **Identity.** The hard one: telling a single physical object apart from near-identical siblings, even when the photos come from different cameras.
 
@@ -40,7 +40,7 @@ Each of these sat in a different part of the system, so I got a much better feel
 
 **Explaining is part of the work.** I got to test tools for teammates and present my work to people with very different backgrounds. Being clear about what works, what doesn't, and what's still unknown builds more trust than a polished number ever does.
 
-**Move fast between problems, but keep notes.** I was handed new projects mid-week more than once. Being able to pick up a problem, get useful quickly, and leave a clean trail for the next person turned out to be a skill worth practising.
+**Move fast between problems, but keep notes.** I was handed new projects mid-week more than once. Being able to pick up a problem, get useful quickly, and leave a clean trail for the next person turned out to be a skill worth practicing.
 
 ## Looking ahead
 

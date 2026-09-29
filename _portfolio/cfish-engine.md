@@ -9,7 +9,7 @@ github: "https://github.com/EliteCoder21/CFish-Engine"
 
 ## Overview
 
-A high-performance chess engine implemented in C++ that combines classical chess programming techniques with modern search algorithms. This project demonstrates deep understanding of game AI, search optimization, and low-level performance tuning.
+A high-performance chess engine implemented in C++ that combines classical chess programming techniques with modern search algorithms. The project explores game-tree search, search optimization, and low-level performance tuning.
 
 **GitHub:** [EliteCoder21/CFish-Engine](https://github.com/EliteCoder21/CFish-Engine)
 
@@ -17,7 +17,7 @@ A high-performance chess engine implemented in C++ that combines classical chess
 
 - **Minimax Search with Alpha-Beta Pruning**: Efficient tree search algorithm that dramatically reduces the search space
 - **Quiescence Search**: Prevents the "horizon effect" by extending search into capture sequences
-- **Move Ordering**: Principal variation moving and history heuristics to improve pruning efficiency
+- **Move Ordering**: Principal-variation move ordering and history heuristics to improve pruning efficiency
 - **Transposition Table**: Hash-based table to reuse search results from previous positions
 - **Evaluation Function**: Piece-square tables with tactical and positional scoring
 

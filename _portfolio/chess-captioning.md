@@ -25,17 +25,17 @@ Research project exploring interpretable AI for chess through reinforcement lear
 - **Frameworks**: PyTorch for deep learning, custom RL training pipeline
 - **Model Architecture**: Attention mechanisms for interpretability, CNN for board evaluation
 - **Training Data**: Large dataset of expert chess games
-- **Evaluation**: ELO rating estimation against established engines
+- **Evaluation**: Elo rating estimation against established engines
 
 ## Learning Outcomes
 
 - Developed g-AWRL agent using attention-weighted mechanisms instead of CNN value networks for improved interpretability
 - Created ChessNet architecture with attention heat maps to visualize decision-making on chess boards
-- Achieved ~1800 ELO competitive strength while maintaining full explainability of move selections
+- Achieved ~1800 Elo competitive strength while maintaining full explainability of move selections
 
 ## Impact
 
-Demonstrated that explainable AI can be competitive with traditional approaches, proving that interpretability doesn't require sacrificing performance in complex game domains.
+Showed that explainable AI can be competitive with traditional approaches, suggesting that interpretability doesn't require sacrificing performance in complex game domains.
 
 ## Technologies
 

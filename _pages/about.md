@@ -23,18 +23,19 @@ I'm drawn to questions at the intersection of AI interpretability, machine learn
 
 My projects reflect a drive to create technology that doesn't just work, but makes sense:
 
-- **Machine Learning Research at Alitheon**: As a research intern (summers 2024 and 2026) I work on computer vision for identifying individual physical objects across different cameras. I wrote about what I learned in [My summer at Alitheon](/posts/summer-at-alitheon/).
+- **Machine Learning Research at Alitheon**: As a research intern in the summers of 2024 and 2026, I worked on computer vision for identifying individual physical objects across different cameras. I wrote about what I learned in [My summer at Alitheon](/posts/summer-at-alitheon/).
 
-- **[Multi-Agent Tanks](/portfolio/multi-agent-tanks/)**: One attention-based network, trained by self-play PPO across 1,024 parallel GPU games, that controls entire armies with a learned team radio
+- **[Multi-Agent Tanks](/portfolio/multi-agent-tanks/)**: One attention-based network, trained by self-play PPO across 1,024 parallel GPU games, that controls entire armies and coordinates them over a learned team radio
 
 - **g-AWRL & ChessNet**: A chess-playing agent that uses attention mechanisms to highlight why it makes certain moves, achieving competitive strength while remaining interpretable
 
 - **Industrial Vision Systems**: Deployed CNN-based quality control systems that process thousands of items daily with high accuracy and low latency
 
-- **Hardware Projects**: From FPGA games to full RISC-V processors, I enjoy pushing my understanding of how software runs on physical systems
+- **Hardware Projects**: From FPGA games to full RISC-V processors, I enjoy deepening my understanding of how software runs on physical hardware
 
 ## Hobbies
-Outside of tech, I stay active with Shotokan Karate (I have black belts in two styles of martial arts), and play guitar. I also love hiking the trails of the Pacific Northwest and listening to epic Bollywood songs. 
+
+Outside of tech, I stay active with Shotokan Karate (I hold black belts in two martial arts styles) and play guitar. I also love hiking the trails of the Pacific Northwest and listening to epic Bollywood songs.
 
 ---
 

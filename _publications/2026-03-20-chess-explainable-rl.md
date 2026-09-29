@@ -13,7 +13,7 @@ citation: 'Pawar, A., Luiten, R., and Tiwari, A. (2026). "Explainable Chess Rein
 
 ## Abstract
 
-This project explores the development of interpretable reinforcement learning agents for chess that can explain their decision-making process. We introduce g-AWRL, a novel agent that replaces traditional CNN value networks with attention-weighted mechanisms, and ChessNet, a convolutional attention model that highlights critical board regions. Our work demonstrates that explainable AI can achieve competitive performance (~1800 ELO) while providing human-interpretable justifications for its moves.
+This project explores the development of interpretable reinforcement learning agents for chess that can explain their decision-making process. We introduce g-AWRL, a novel agent that replaces traditional CNN value networks with attention-weighted mechanisms, and ChessNet, a convolutional attention model that highlights critical board regions. Our work demonstrates that explainable AI can achieve competitive performance (~1800 Elo) while providing human-interpretable justifications for its moves.
 
 ## Key Contributions
 
@@ -30,4 +30,4 @@ This project explores the development of interpretable reinforcement learning ag
 
 ## Results
 
-The g-AWRL agent achieves approximately 1800 ELO strength while providing transparent explanations of its decision-making process, demonstrating that interpretability and performance can coexist in complex game-playing domains.
+The g-AWRL agent achieves approximately 1800 Elo strength while providing transparent explanations of its decision-making process, demonstrating that interpretability and performance can coexist in complex game-playing domains.

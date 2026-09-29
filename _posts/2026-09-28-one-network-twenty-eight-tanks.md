@@ -12,7 +12,7 @@ tags:
 
 [Multi-Agent Tanks](/portfolio/multi-agent-tanks/) started as a small arena in the spirit of Tank Trouble and grew into a strategy game: two armies, five bases each, a maze of rock, and a single neural network controlling every tank and every base on both sides. Nothing about tactics is scripted. The network decides where each tank drives, when it shoots, when a scout heals a wounded ally, where barricades go up, and what the bases build. The code is on [GitHub](https://github.com/EliteCoder21/Multi-Agent-Tanks).
 
-What I wanted to know was how much coordinated behaviour (squads, sieges, supply lines, medics) can *emerge* from reward design and self-play alone, and whether I could make it fast enough to iterate in minutes instead of days.
+What I wanted to know was how much coordinated behavior (squads, sieges, supply lines, medics) can *emerge* from reward design and self-play alone, and whether I could make it fast enough to iterate in minutes instead of days.
 
 <img src="/images/posts/diagram-tanks.svg" alt="Observation goes through an encoder; one branch feeds an attention radio over teammates, another passes the agent's own state; both feed a GRU memory and then the action heads." style="max-width:100%;">
 
@@ -20,7 +20,7 @@ What I wanted to know was how much coordinated behaviour (squads, sieges, supply
 
 My first radio let each tank pick one of a few discrete "words" every turn. It carried exactly zero information. A sampled word gets no gradient, so nothing ever taught a speaker what to say. I only knew because I trained a copy with the radio muted and it did just as well.
 
-The fix was a continuous, differentiable channel: every agent broadcasts a key and a 64-number message, and each listener asks its own question and hears teammates weighted by attention (four heads). Because the channel is part of the network, a listener's policy gradient teaches the speaker what's worth saying. Now the muted copy loses, by margins as large as 80 to 18 in the earlier averaging version, and I can measure *who* agents actually listen to.
+The fix was a continuous, differentiable channel: every agent broadcasts a key and a 64-number message, and each listener asks its own question and hears teammates weighted by attention (four heads). Because the channel is part of the network, a listener's policy gradient teaches the speaker what's worth saying. Now the muted copy loses (by as much as 80 games to 18 in an earlier version of the radio), and I can measure *who* agents actually listen to.
 
 ## Almost every reward term is a scar
 
@@ -44,4 +44,4 @@ Training runs **1,024 games at once**, each agent a row of one big tensor, with 
 
 At one point a well-trained policy lost every game to the dumb scripted raider, which just charges. Pure self-play had wandered into a style that beat itself but little else. Now a quarter of games put one side under either the raider or a frozen past snapshot, so the policy can't forget older styles.
 
-There's also a live viewer where you can take over any tank, in top-down or first-person, while the network plays everyone else, including your teammates. If you want to try it, the repo's README walks through it.
+There's also a live viewer where you can take over any tank, in top-down or first-person view, while the network plays everyone else, including your teammates. If you want to try it, the repo's README walks you through setup.
