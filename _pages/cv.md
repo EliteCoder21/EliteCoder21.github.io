@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ---
-* B.S. in Computer Science, University of Washington (Expected 2027)
+* B.S. in Computer Science, University of Washington (Expected June 2027), GPA 3.93
 
 Skills
 ---
@@ -25,7 +25,20 @@ Skills
 
 Experience
 ---
-For a detailed list of my professional experience, please visit my [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).
+* **Machine Learning Research Intern, Alitheon** (Summers 2024 and 2026)
+  * Computer vision research for visual-fingerprint authentication, spanning camera calibration, recognition, and identifying individual objects across different cameras
+  * Automated camera-station calibration in C++, reducing a manual workflow by about 95%
+  * Reflections: [My summer at Alitheon]({{ base_path }}/posts/summer-at-alitheon/)
+* **Full-Stack Software Development Intern, OpenEXA** (July 2023 - July 2024)
+  * Owned the core interface for an asset-backed credit platform and mentored 5+ interns
+
+Teaching
+---
+* Undergraduate Teaching Assistant, CSE 421 (Algorithms), University of Washington (Autumn 2026)
+
+Resume
+---
+A PDF version of my resume is available [here]({{ base_path }}/files/Aaryan_Pawar_Resume.pdf). For contact, please reach out through [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).
 
 Languages
 ---

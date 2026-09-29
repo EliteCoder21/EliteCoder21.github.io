@@ -21,3 +21,17 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Never commit secrets, keys, certificates, or personal documents
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+.env
+.env.*
+secrets/
+credentials*
+*transcript*
+*Transcript*
+*offer*letter*

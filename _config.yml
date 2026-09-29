@@ -16,6 +16,10 @@ description              : &description "Aaryan Pawar's Personal Website"   # Up
 url                      : https://elitecoder21.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# Local development server (jekyll serve): listen on all interfaces so the site is reachable
+# from a browser even when Jekyll runs inside a VM or container
+host                     : 0.0.0.0
+port                     : 4000
 repository               : "EliteCoder21/EliteCoder21.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -58,7 +62,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -166,6 +170,8 @@ include:
   - _pages
   - files
 exclude:
+  - website-update.patch
+  - serve-local.sh
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

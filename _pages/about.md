@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science student with senior standing at the University of Washington. I am passionate about building intelligent systems that are both powerful and understandable. My work bridges the gap between cutting-edge AI research and real-world applications — from industrial computer vision systems to interpretable reinforcement learning agents.
+I'm a Computer Science student with senior standing at the University of Washington, and this fall I am an undergraduate teaching assistant for CSE 421 (Algorithms). I am passionate about building intelligent systems that are both powerful and understandable. My work bridges the gap between cutting-edge AI research and real-world applications — from industrial computer vision systems to interpretable reinforcement learning agents.
 
 ## Research Interests
 
@@ -22,6 +22,10 @@ I'm drawn to questions at the intersection of AI interpretability, machine learn
 ## What I'm Building
 
 My projects reflect a drive to create technology that doesn't just work, but makes sense:
+
+- **Machine Learning Research at Alitheon**: As a research intern (summers 2024 and 2026) I work on computer vision for identifying individual physical objects across different cameras. I wrote about what I learned in [My summer at Alitheon](/posts/summer-at-alitheon/).
+
+- **[Multi-Agent Tanks](/portfolio/multi-agent-tanks/)**: One attention-based network, trained by self-play PPO across 1,024 parallel GPU games, that controls entire armies with a learned team radio
 
 - **g-AWRL & ChessNet**: A chess-playing agent that uses attention mechanisms to highlight why it makes certain moves, achieving competitive strength while remaining interpretable
 
