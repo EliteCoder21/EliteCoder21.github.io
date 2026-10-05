@@ -7,6 +7,11 @@ permalink: /portfolio/multi-agent-tanks/
 github: "https://github.com/EliteCoder21/Multi-Agent-Tanks"
 ---
 
+<video controls playsinline preload="metadata" poster="/images/portfolio/multi-agent-tanks-overview.png" style="display: block; width: 100%; height: auto;" aria-label="Multi-Agent Tanks gameplay demo">
+  <source src="/files/demo.mp4" type="video/mp4">
+  Your browser does not support video playback. <a href="/files/demo.mp4">Download the gameplay demo</a>.
+</video>
+
 ## Overview
 
 Two armies fight over a maze. Every tank and every base on the board is controlled by the **same neural network**, trained from scratch by self-play on a single GPU. Nothing about tactics is scripted: the network decides where each tank drives, when it shoots, when a scout ferries supplies or patches up a wounded ally, where barricades go up, what the bases build, and what the team says to each other over a learned radio.
