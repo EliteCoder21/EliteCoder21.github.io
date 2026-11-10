@@ -41,3 +41,18 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.recommendation-card {
+  max-width: 48rem;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+  background: #191e22;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

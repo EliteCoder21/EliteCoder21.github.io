@@ -26,5 +26,8 @@ main:
   - title: "Awards"
     url: /awards/
 
+  - title: "Recommendations"
+    url: /recommendations/
+
   - title: "Volunteer Work"
     url: /volunteering/

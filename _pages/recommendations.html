@@ -1,0 +1,26 @@
+---
+layout: archive
+title: "Recommendations"
+permalink: /recommendations/
+author_profile: true
+---
+
+<p>I'm grateful to have worked with people who challenged me, supported my growth, and made the work meaningful. Here are a few of their perspectives.</p>
+
+<p><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/details/recommendations/">View recommendations on LinkedIn &rarr;</a></p>
+
+<h2 class="archive__subtitle">In their words</h2>
+
+{% assign recommendation_images = site.static_files | sort: "name" %}
+{% for image in recommendation_images %}
+  {% assign extension = image.extname | downcase %}
+  {% assign expected_path = "/images/recommendations/" | append: image.name %}
+  {% if image.path == expected_path %}
+    {% if extension == ".png" or extension == ".jpg" or extension == ".jpeg" or extension == ".webp" %}
+      {% assign image_description = image.basename | replace: "-", " " | replace: "_", " " %}
+      <figure class="recommendation-card">
+        <img src="{{ image.path | relative_url }}" alt="{{ image_description | escape }}">
+      </figure>
+    {% endif %}
+  {% endif %}
+{% endfor %}

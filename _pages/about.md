@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science student with senior standing at the University of Washington, and this fall I am an undergraduate teaching assistant for CSE 421 (Algorithms). I am passionate about building intelligent systems that are both powerful and understandable. My work bridges the gap between cutting-edge AI research and real-world applications — from industrial computer vision systems to interpretable reinforcement learning agents.
+I'm a Computer Science student at the University of Washington (B.S. expected June 2028), and this fall I am an undergraduate teaching assistant for CSE 421 (Algorithms). I like building intelligent systems that are both powerful and understandable, and I care most about the moment research turns into something a business or a customer can feel: a setup that takes a fraction of the time, a product that works from an ordinary phone, a system that stores each record in a twentieth of the space. My work ranges from industrial computer vision to interpretable reinforcement learning agents.
+
+## Recent notes
+
+This fall I am exploring how systems communicate and where their assumptions can fail. I wrote about [building a networking client in CSE 461](/posts/cse-461-networks/) and [exploring memory safety in the CSE 484 binary lab](/posts/cse-484-security/). For professional updates and connections, find me on [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).
 
 ## Research Interests
 
@@ -23,7 +27,7 @@ I'm drawn to questions at the intersection of AI interpretability, machine learn
 
 My projects reflect a drive to create technology that doesn't just work, but makes sense:
 
-- **Machine Learning Research at Alitheon**: As a research intern in the summers of 2024 and 2026, I worked on computer vision for identifying individual physical objects across different cameras. I wrote about what I learned in [My summer at Alitheon](/posts/summer-at-alitheon/).
+- **Machine Learning Research at Alitheon**: As a research intern in the summers of 2024 and 2026, I worked on computer vision for identifying individual physical objects across different cameras. Highlights: automating camera-station setup (about 95% less manual work), making identification work from smartphone photos against industrial-camera records, and cutting per-item storage by about 95% while improving accuracy, with the results shipped in the production library. I wrote about what I learned in [My summer at Alitheon](/posts/summer-at-alitheon/).
 
 - **[Multi-Agent Tanks](/portfolio/multi-agent-tanks/)**: One attention-based network, trained by self-play PPO across 1,024 parallel GPU games, that controls entire armies and coordinates them over a learned team radio
 

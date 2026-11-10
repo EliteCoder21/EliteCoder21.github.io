@@ -3,15 +3,13 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
 Education
 ---
-* B.S. in Computer Science, University of Washington (Expected June 2027), GPA 3.93
+* B.S. in Computer Science, University of Washington (Expected June 2028), GPA 3.93, Dean's List
 
 Skills
 ---
@@ -26,19 +24,17 @@ Skills
 Experience
 ---
 * **Machine Learning Research Intern, Alitheon** (Summers 2024 and 2026)
-  * Computer vision research for visual-fingerprint authentication, spanning camera calibration, recognition, and identifying individual objects across different cameras
-  * Automated camera-station calibration in C++, reducing a manual workflow by about 95%
+  * Computer vision research for visual-fingerprint authentication: recognizing individual physical objects across industrial cameras and smartphones
+  * Automated camera-station calibration in C++, removing about 95% of a manual setup workflow so new installations go live faster
+  * Cut per-item storage in the identification pipeline by about 95% (roughly 200 KB to 9.2 KB per item) while improving identification rates, and ported research models to C++ for the production matching library
+  * Built label-free checks that catch incorrect product-database records, removing about 99% of a manual review workload
   * Reflections: [My summer at Alitheon]({{ base_path }}/posts/summer-at-alitheon/)
 * **Full-Stack Software Development Intern, OpenEXA** (July 2023 – July 2024)
-  * Owned the core interface for an asset-backed credit platform and mentored 5+ interns
+  * Owned the core interface for an asset-backed credit platform; documented the architecture and mentored 5+ interns, improving onboarding efficiency by about 30%
 
 Teaching
 ---
 * Undergraduate Teaching Assistant, CSE 421 (Algorithms), University of Washington (Autumn 2026)
-
-Resume
----
-A PDF version of my resume is available [here]({{ base_path }}/files/Aaryan_Pawar_Resume.pdf). For contact, please reach out through [LinkedIn](https://www.linkedin.com/in/aaryan-pawar-548553329/).
 
 Languages
 ---

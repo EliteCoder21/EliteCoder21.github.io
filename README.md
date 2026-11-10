@@ -64,6 +64,10 @@ The generated site lands in `_site/`, which is ignored by git.
 - **`You don't have write permissions for the /var/lib/gems/3.2.0 directory`** means Bundler is trying to install system-wide. Set the local `vendor/bundle` path as shown above.
 - **Port already in use** means something else (usually NoMachine on 4000) holds the port. Pick another one with `-P` or edit the host side of the port mapping in `docker-compose.yaml`.
 
+## Recommendations
+
+Add recommendation screenshots to `images/recommendations/` as PNG, JPG, JPEG, or WebP files. They appear automatically on the Recommendations page in filename order after the site is rebuilt. Use descriptive filenames (for example, `recommendation-from-jane-smith.png`), which also provide the images' alternative text. The page links to your LinkedIn recommendations; LinkedIn may require visitors to sign in and be connected to see them there.
+
 ## Credits
 
 Based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template, which is derived from the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme by Michael Rose. Released under the MIT License (see `LICENSE`).

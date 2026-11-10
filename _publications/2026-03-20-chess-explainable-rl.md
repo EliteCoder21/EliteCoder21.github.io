@@ -6,7 +6,6 @@ permalink: /publication/chess-explainable-rl
 excerpt: 'Developing interpretable reinforcement learning agents for chess using attention-weighted mechanisms and convolutional neural networks.'
 date: 2026-03-20
 venue: 'CSE 493G Deep Learning Course Project, University of Washington'
-paperurl: '/files/ChessReinforcmentLearning_CSE493G_final_paper.pdf'
 bibtexurl: '/files/bibtex1.bib'
 citation: 'Pawar, A., Luiten, R., and Tiwari, A. (2026). "Explainable Chess Reinforcement Learning with Attention." <i>CSE 493G Deep Learning Course Project</i>. University of Washington.'
 ---
